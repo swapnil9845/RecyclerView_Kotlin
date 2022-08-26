@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="116dp"
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="#FF018786"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="3dp"
+    app:contentPadding="4dp">
+
+
+    <TextView
+        android:id="@+id/item_detail"
+        android:layout_width="199dp"
+        android:layout_height="16dp"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.68" />
+
+
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="235dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="63dp"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.323" />
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="286dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/a"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
